@@ -1,0 +1,31 @@
+table {
+	background-color: aqua;
+	width: 45rem;
+	margin: 0.5rem;
+}
+table tr:nth-child(odd) td {
+	background: rgb(233, 230, 230);
+	height: 3rem;
+}
+
+table tr:nth-child(even) td {
+	background: white;
+	height: 3rem;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+}
+
+.add {
+	margin-top: 5rem;
+	display: flex;
+	justify-content: center;
+}
+
+.logout {
+	display: flex;
+	justify-content: space-between;
+	background-color: aqua;
+}

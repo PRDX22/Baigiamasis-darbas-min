@@ -1,0 +1,68 @@
+.container {
+	display: flex;
+	justify-content: center;
+	margin-top: 5rem;
+}
+
+.form-container {
+	padding: 1rem;
+	border-radius: 0.5rem;
+	width: 25rem;
+	margin-top: 3rem;
+}
+.form-container form {
+	display: flex;
+	margin-top: 1rem;
+	flex-direction: column;
+}
+.form-container input {
+	padding: 0.5rem 0.75rem;
+	margin-bottom: 1rem;
+	border: 1px solid lightgray;
+	font-weight: lighter;
+}
+.form-container button {
+	padding: 0.5rem 1.5rem;
+	cursor: pointer;
+	border: 2px solid black;
+	background-color: white;
+	margin-top: 0.5rem;
+}
+.form-container button:hover {
+	background-color: black;
+	color: white;
+}
+.form-container h1 {
+	margin: 0;
+	padding: 1rem 0 0.5rem;
+	font-size: 1.5rem;
+}
+.form-container a {
+	text-decoration: none;
+	margin: 1rem 0.5rem;
+	color: black;
+}
+
+.containerAdd {
+	height: 30vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 5rem;
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
+	margin-top: 15rem;
+}
+
+#logoutEvents {
+	visibility: hidden;
+}
+
+.logout {
+	display: flex;
+	justify-content: space-between;
+	background-color: aqua;
+}
